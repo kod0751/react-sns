@@ -1,7 +1,12 @@
-import React from "react";
+import React from 'react';
+import AppLayout from '../components/AppLayout';
 
 const Home = () => {
-	return <div>Hello, NEXT!</div>;
+  return (
+    <AppLayout>
+      <div>Hello, NEXT!</div>
+    </AppLayout>
+  );
 };
 
 export default Home;
