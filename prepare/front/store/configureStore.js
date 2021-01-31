@@ -2,8 +2,11 @@ import React from 'react';
 import { createWrapper } from 'next-redux-wrapper';
 import { createStore } from 'redux';
 
+import reducer from '../reducers';
+
 const configureStore = () => {
-  return <div></div>;
+  const store = createStore(reducer);
+  return store;
 };
 const wrapper = createWrapper(configureStore, { debug: process.env.NODE_ENV === 'development' });
 
