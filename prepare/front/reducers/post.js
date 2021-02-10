@@ -10,6 +10,12 @@ export const initialState = {
       Images: [
         {
           src: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20140407_217%2Fhyesungk813_1396839637058QcuWS_JPEG%2Ftumblr_n3mni89HWp1qczzxzo1_500.jpg&type=sc960_832'
+        },
+        {
+          src: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20140407_217%2Fhyesungk813_1396839637058QcuWS_JPEG%2Ftumblr_n3mni89HWp1qczzxzo1_500.jpg&type=sc960_832'
+        },
+        {
+          src: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20140407_217%2Fhyesungk813_1396839637058QcuWS_JPEG%2Ftumblr_n3mni89HWp1qczzxzo1_500.jpg&type=sc960_832'
         }
       ],
       Comments: [
