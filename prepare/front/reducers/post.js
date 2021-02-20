@@ -6,7 +6,7 @@ export const initialState = {
         id: 1,
         nickname: 'DI'
       },
-      content: '첫 번째 게시글',
+      content: '첫 번째 게시글 #해시태그 #익스프레스',
       Images: [
         {
           src: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20140407_217%2Fhyesungk813_1396839637058QcuWS_JPEG%2Ftumblr_n3mni89HWp1qczzxzo1_500.jpg&type=sc960_832'
