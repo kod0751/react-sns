@@ -59,6 +59,7 @@ function* removePost(action) {
       data: action.data
     });
   } catch (err) {
+    console.error(err);
     yield put({
       type: REMOVE_POST_FAILURE,
       data: err.response.data
